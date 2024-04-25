@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.button{
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+}
+
+.button:hover{
+    background-color: rgba(182, 181, 179, 0.589);
+}
+
+ul.navbar-nav{
+    /* background-color: aqua; */
+   margin-right: 500px;
+}
+
+.container{
+    /* background-color: rgba(0, 255, 34, 0.267); */
+    margin-top: 80px;
+}
+
+/* .sect-one{
+    background-color: yellow;
+}
+
+.pic{
+    background-color: yellowgreen;
+} */
+
+.button-blue{
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.head-one{
+  margin-top: 60px;
+}
+
+img.icons{
+    height: 60px;
+    width: 60px;
+}
+
+img.build-imgs{
+    height: 250px;
+    width: 100%;
+}
+
+div.card{
+    height: 450px;
+    width: 350px;
+}
+
+.img-business{
+    width: 100%;
+}
+
+#grad {
+    background-image: linear-gradient(rgb(0, 255, 200), rgb(255, 0, 157));
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+    .button-blue{
+      margin-top: 5px;
+      }
+  }
